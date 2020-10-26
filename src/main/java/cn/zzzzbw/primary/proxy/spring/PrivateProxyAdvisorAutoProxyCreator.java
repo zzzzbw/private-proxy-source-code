@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @author by zzzzbw
  * @since 2020/09/15 15:10
  */
-// @Component(AopConfigUtils.AUTO_PROXY_CREATOR_BEAN_NAME)
+@Component(AopConfigUtils.AUTO_PROXY_CREATOR_BEAN_NAME)
 public class PrivateProxyAdvisorAutoProxyCreator extends AnnotationAwareAspectJAutoProxyCreator {
 
     @Override
